@@ -1,0 +1,6 @@
+[submodule "ceres_robot"]
+	path = ceres_robot
+	url = https://github.com/hjanott/ceres_robot.git
+[submodule "move_base_flex"]
+	path = move_base_flex
+	url = https://github.com/magazino/move_base_flex.git
