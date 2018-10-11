@@ -1,0 +1,4 @@
+<launch>
+  <arg name="map" default="/local/ceres_ws/src/uos_tools/uos_maps/maps/avz5floor_gazebo.yaml"/>
+  <node name="grid_map_handler" pkg="grid_map_handler" type="grid_map_handler_node" args="$(arg map)" output="screen" />
+</launch>

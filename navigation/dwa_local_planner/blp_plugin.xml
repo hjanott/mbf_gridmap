@@ -1,0 +1,12 @@
+<library path="lib/libdwa_local_planner">
+  <class name="dwa_local_planner/DWAPlannerROS" type="dwa_local_planner::DWAPlannerROS" base_class_type="nav_core::BaseLocalPlanner">
+    <description>
+      A implementation of a local planner using either a DWA approach based on configuration parameters.
+    </description>
+  </class>
+  <class name="dwa_local_planner/DWAPlannerROS" type="dwa_local_planner::DWAPlannerROS" base_class_type="mbf_gridmap_core::GridmapController">
+    <description>
+      A implementation of a local planner using either a DWA approach based on configuration parameters.
+    </description>
+  </class>
+</library>

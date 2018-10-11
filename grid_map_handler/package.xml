@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>grid_map_handler</name>
+  <version>0.0.0</version>
+  <description>The grid_map_handler package</description>
+  <maintainer email="hjanott@todo.todo">hjanott</maintainer>
+  <license>TODO</license>
+  <!-- <url type="website">http://wiki.ros.org/grid_map_handler</url> -->
+  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>bullet</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>grid_map_core</build_depend>
+  <build_depend>grid_map_cv</build_depend>
+  <build_depend>grid_map_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>grid_map_ros</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>yaml-cpp</build_depend>
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>laser_geometry</build_depend>
+
+  <build_export_depend>bullet</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>grid_map_core</build_export_depend>
+  <build_export_depend>grid_map_cv</build_export_depend>
+  <build_export_depend>grid_map_msgs</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>grid_map_ros</build_export_depend>
+  <build_export_depend>image_transport</build_export_depend>
+  <build_export_depend>yaml-cpp</build_export_depend>
+  <build_export_depend>costmap_2d</build_export_depend>
+  <build_export_depend>pcl_conversions</build_export_depend>
+  <build_export_depend>pcl_ros</build_export_depend>
+  <build_export_depend>laser_geometry</build_export_depend>
+
+  <exec_depend>bullet</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>grid_map_core</exec_depend>
+  <exec_depend>grid_map_cv</exec_depend>
+  <exec_depend>grid_map_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>grid_map_ros</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>yaml-cpp</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>laser_geometry</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
